@@ -12,5 +12,29 @@
     "bed_time": 10,
     "rating": 5,
     "perception": "I really struggled to sleep, but I have defs felt worse. Not that bad once I get going. "
+  },
+  "2025-04-15": {
+    "hours": 4,
+    "cont": 2,
+    "bed_time": 10,
+    "out_of_bed": 7,
+    "rating": 4,
+    "perception": "defs feel out of it today."
+  },
+  "2025-04-16": {
+    "hours": 2,
+    "cont": 3,
+    "bed_time": 8,
+    "out_of_bed": 7,
+    "rating": 1,
+    "perception": "Basically didnt sleep felt bad"
+  },
+  "2025-04-17": {
+    "hours": 6.5,
+    "cont": 1,
+    "bed_time": "2215",
+    "out_of_bed": "0559",
+    "rating": 6,
+    "perception": "ok"
   }
 }

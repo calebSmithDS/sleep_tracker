@@ -3,18 +3,21 @@ This module allows the user to input data to sleep related prompts - this data i
 """
 
 from datetime import date, datetime
+from dotenv import load_dotenv
 import os
 import json
+
+load_dotenv()
 
 file_path = os.getenv("SLEEP_DATA")
 
 data = {}
 today = str(date.today())
 
-hours = int(input("Enter your estimated hours of sleep: "))
+hours = float(input("Enter your estimated hours of sleep: "))
 continuous = int(input("Enter 1 if did not wake \nEnter 2 if woke once \nEnter 3 if woke more then once: "))
-bed_time = datetime.strptime(input("Enter the time (HH:MM) you attempted to go to sleep: "))
-out_of_bed = datetime.strptime(input("Enter the time (HH:MM) you got out of bed for the day: "))
+bed_time = str(input("Enter the time (HHMM) you attempted to go to sleep: "))
+out_of_bed = str(input("Enter the time (HHMM) you got out of bed for the day: "))
 rating = int(input("Enter a number between 1 and 10 representing how you feel: "))
 while rating > 10 or rating < 1:
     rating = int(input("Enter a number between 1 and 10 representing how you feel: "))
