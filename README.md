@@ -4,12 +4,13 @@ This app can currently take sleep data as input from user in response to sleep r
 # Features 
 - Input sleep data 
 - Store sleep data 
-- Android terminal compatablity
+- Android terminal compatibility
 
 # Tech Stack 
 - Python 3.13
-- Json for file storage 
+- JSON for file storage 
 - Termirux
 
 # Notes 
-This app will be expanded to allow analysis functionality through technologies such as panadas. 
+At the moment the system only allows for user reporting of subjective sleep measures. However, the plan is to add sensors which track data such as heart rate, motion, etc. This would be acheived through a rasperryPI.
+This app will be expanded to allow analysis functionality through technologies such as pandas. 
